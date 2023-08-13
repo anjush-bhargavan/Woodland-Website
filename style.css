@@ -1,0 +1,291 @@
+.top-section{
+  font-weight: 400;
+  word-spacing: 2px;
+  font-size: 14px;
+  padding: 2px;
+}
+
+.mid-section{
+  background-color: #3b6f44;
+  height: 37px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-size: 14px;
+}
+.middle-section{
+  margin-right: 7%;
+}
+.head-btn{
+  background-color: #3b6f44;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* navbar */
+.nav-link {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #3b6f44;
+  margin-top: 20px;
+}
+.brand-logo img{
+  width: 6rem;
+  padding-bottom: 0px;
+  padding-top: 0;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+  border: 0;
+  top: 80px;
+}
+
+.drop-container{
+
+  margin-left: 20px;
+  width: 900px;
+  margin-right: 20px;
+  display:inline-flex;
+}
+
+.dropdown-menu{
+  left: 60px;
+  right: 60px;
+  min-width: 100vw;
+  min-height: 200px;
+}
+ul {
+
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-item{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 477px) {
+  .slide{
+    margin-top: 30px;
+  }
+  .search{
+
+  }
+} 
+
+/* Cards */
+.slides1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.slides1-1{
+  min-width: 15vw;
+  max-width: 80vw;
+  flex-basis: 30%;
+  margin: 10px;
+  padding: 10px; 
+  overflow: hidden;
+  position: relative;
+}
+.slides1-1 img{
+  max-width: 100%;
+}
+
+.slides1-1 button{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 16px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  border: 2px solid #fff;
+}
+.slides1-1 p{
+  width: 300px;
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 38px;
+  text-align: center;
+  font-family: Raleway,sans-serif!important;
+  background-color: transparent;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+ 
+    .slides1-1 {
+      min-width: 100%;
+ 
+    }
+}
+
+/* Banner */
+.banner{
+  position: relative;
+}
+.banner img{
+  max-width: 100%;
+}
+.banner button{
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  padding: 12px 16px;
+  background-color: #0c5423;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+ 
+  .banner button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+}
+
+/* Banner2 */
+.banner2{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.ban-img1{
+  position: relative;
+}
+.ban-img1 img{
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.ban-img1 button{
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  padding: 12px 16px;
+  background-color: #0c5423;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  border: none;
+}
+.ban-img1 p{
+  width: 300px;
+  position: absolute;
+  top: 78%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 38px;
+  text-align: center;
+  font-family: Raleway,sans-serif!important;
+  background-color: transparent;
+  color: white;
+}
+.ban-img2{
+  position: relative;
+}
+.ban-img2 img{
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.ban-img2 button{
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  padding: 12px 16px;
+  background-color: #0c5423;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  border: none;
+}
+.ban-img2 p{
+  width: 300px;
+  position: absolute;
+  top: 78%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 38px;
+  text-align: center;
+  font-family: Raleway,sans-serif!important;
+  background-color: transparent;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+ 
+  .banner2 button{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+  }
+  .banner2 p{
+    top: 50%;
+    left: 30%;
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+}
+
+
+/* Slides */
+.container-fluid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.slides2-2{
+  min-width: 15vw;
+  max-width: 80vw;
+  flex-basis: 23%;
+  margin: 10px;
+  padding: 10px; 
+  overflow: hidden;
+  position: relative;
+}
+.slides2-2 img{
+  max-width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+ 
+  .slides2-2 {
+    min-width: 100%;
+
+  }
+}
+
+
