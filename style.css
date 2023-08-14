@@ -71,10 +71,14 @@ ul {
 
 @media only screen and (max-width: 477px) {
   .slide{
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
-  .search{
-
+  .searchBar {
+    max-width: 40%;
+  }
+  .search {
+    max-width: 60%;
+    justify-content: end;
   }
 } 
 
@@ -132,13 +136,8 @@ ul {
  
     }
 }
-@media only screen and (max-width: 799px) {
- 
-  .slides1-1 {
-    min-width: 40%;
 
-  }
-}
+
 
 /* Banner */
 .banner{
